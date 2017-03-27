@@ -32,5 +32,10 @@ dependencies {
 	compile('com.fasterxml.jackson.datatype:jackson-datatype-jsr310')
 	runtime('com.h2database:h2')
 	compileOnly('org.projectlombok:lombok')
+	compile "io.springfox:springfox-swagger2:2.6.1"
+	compile "io.springfox:springfox-swagger-ui:2.6.1"
+	compile "io.springfox:springfox-data-rest:2.6.1"
+	compile "io.springfox:springfox-bean-validators:2.6.1"
+	compile('org.springframework.boot:spring-boot-starter-actuator')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
